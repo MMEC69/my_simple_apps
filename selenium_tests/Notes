@@ -1,0 +1,49 @@
+Instructions
+============
+
+1. in terminal, "pip install selenium"
+
+2. in code
+    a. "from selenium import webdriver" - if the yellow lined appear don't worry it just says the installation file is not found yet but it will be fixed when the code runs
+    b. set up the chrome web driver service - "from selenium.webdriver.chrome.service import Service"
+
+3. This is a tool which allows us to a particular browser as a real user does
+
+4. Download the chrome driver (it should match with your chrome version) - https://googlechromelabs.github.io/chrome-for-testing/#stable - watch for chrome driver (not chrome)
+
+5. Place the chrome driver .exe in the same folder as the python file
+
+6. After configuring the executable path, we can grab any website
+
+==============================================
+test_1 - Search something
+==========================
+* Search the element within the HTML
+* When having the access to the element interact with it (click, change etc.)
+    * Find the google search field
+    * Click it
+    * Type some thing '....'
+    * Hit enter
+===============================================
+Challenges Faced
+=================
+* The testing sites might ban your Ip or block your
+* You might be able to able to solve some captcha to verify whether you are a bot or not (in this case you are a bot, so you won't be able to confirm)
+* Redirect you
+===============================================
+How to do this in multiple instances?
+=====================================
+* Push the code in to the cloud and to for multiple instance all at once
+
+
+===============================================
+Better tools for future
+=======================
+*Bright Data - A tool which can run multiple instances, solves captcha automatically and rotate IPs to avoid getting banned
+=================================================
+Terminology
+===========
+* boilerplate - A boilerplate is a standard, reusable piece of text, code, or formatting that can be copied and used over and over with little or no changes
+================================================
+* What is XPATH, is it better than CLASSNAME ?
+    It's a special syntax which can be used to search a specific test/attribute
